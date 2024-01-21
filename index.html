@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus Álbumes Favoritos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="album-form">
+        <label for="album-name">Nombre del Álbum:</label>
+        <input type="text" id="album-name" required>
+        <button id="add-album">Agregar Álbum</button>
+    </div>
+    <div id="album-chart-container">
+        <canvas id="album-chart"></canvas>
+    </div>
+    <ul id="album-list"></ul>
+</body>
+</html>
